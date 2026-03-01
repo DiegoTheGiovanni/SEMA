@@ -1,0 +1,73 @@
+/* Navbar - Kuning Pastel */
+.navbar {
+    background: linear-gradient(90deg, #FFF9C4, #FFF59D); /* pastel lebih lembut */
+    color: #FBC02D; /* kuning hangat untuk teks */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1); /* shadow lebih ringan */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Logo */
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FBC02D; /* kuning pastel */
+}
+
+/* Right Navbar */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Help Button */
+.help-btn {
+    width: 55px;
+    height: 35px;
+    background: #FFF176; /* kuning pastel cerah */
+    color: #F57F17; /* teks kontras */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.help-btn:hover {
+    background: #FBC02D; /* hover lebih hangat */
+    transform: scale(1.1);
+}
+
+/* Material Icons */
+.material-icons {
+   color: #F57F17; /* agar tetap terlihat di navbar pastel */
+}
+
+/* Profile */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #F57F17; /* konsisten dengan icon */
+}
+
+/* Supaya konten tidak ketutup navbar */
+.container {
+    margin-top: 90px;
+}
+
+/* Profil link */
+.profil {
+   text-decoration: none;
+   color: #F57F17;
+}
